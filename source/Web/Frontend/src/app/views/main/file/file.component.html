@@ -1,0 +1,9 @@
+<app-files name="files" [(ngModel)]="files"></app-files>
+<button class="uk-button uk-button-primary" (click)="setFiles()">Set Files</button>
+
+<div class="uk-padding-small uk-padding-remove-left">
+    <h4>Files</h4>
+    <ul class="uk-list uk-list-bullet">
+        <li *ngFor="let file of files">{{ file.name }}: {{ file.id }}</li>
+    </ul>
+</div>

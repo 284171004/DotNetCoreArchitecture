@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.Security" Version="8.8.0" />
+        <PackageReference Include="DotNetCore.Validation" Version="8.8.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CrossCutting\DotNetCoreArchitecture.CrossCutting.csproj" />
+    </ItemGroup>
+</Project>
